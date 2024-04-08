@@ -1,0 +1,25 @@
+Administrator@DESKTOP-TIC5DM4 MINGW64 ~/Desktop/assignment (main)
+$ git config --global user.name "madhucshinde16"
+
+Administrator@DESKTOP-TIC5DM4 MINGW64 ~/Desktop/assignment (main)
+$ git config --global user.email "madhucshinde16@gmail.com"
+
+Administrator@DESKTOP-TIC5DM4 MINGW64 ~/Desktop/assignment (main)
+$ git branch feature
+fatal: a branch named 'feature' already exists
+
+Administrator@DESKTOP-TIC5DM4 MINGW64 ~/Desktop/assignment (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+Administrator@DESKTOP-TIC5DM4 MINGW64 ~/Desktop/assignment (feature)
+$ git commit -m "feature branch commit"
+On branch feature
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sample.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@DESKTOP-TIC5DM4 MINGW64 ~/Desktop/assignment (feature)
+$ git add "sample.txt"
